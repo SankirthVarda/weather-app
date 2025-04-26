@@ -14,7 +14,7 @@ form.addEventListener('submit', function(e) {
 
 async function getWeather(city) {
   try {
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
+    const response = await fetch(`https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
     if (!response.ok) {
       throw new Error('City not found');
     }
@@ -32,4 +32,3 @@ function showWeather(data) {
     <p>Weather: ${data.weather[0].description}</p>
   `;
 }
-
