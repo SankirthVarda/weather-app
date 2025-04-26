@@ -6,8 +6,8 @@ It fetches live weather data from OpenWeatherMap API based on city name input.
 ## Features
 - Search by city name
 - Shows temperature and weather description
-- Fetches live data from OpenWeatherMap
-- Responsive design
+- Fetches live data from OpenWeatherMap API
+- Responsive design for all devices
 
 ## Technologies Used
 - HTML5
@@ -16,4 +16,4 @@ It fetches live weather data from OpenWeatherMap API based on city name input.
 - OpenWeatherMap API
 
 ## Live Demo
-🔗 [View Weather App Here](https://your-netlify-link.netlify.app)
+🔗 [View Weather App Here](https://whimsical-tapioca-92d22a.netlify.app/)
